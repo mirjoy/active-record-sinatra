@@ -5,5 +5,5 @@ db = URI.parse(ENV['DATABASE_URL'] || "sqlite3://localhost/db/#{database_name}")
 # connect ActiveRecord with the current database
 ActiveRecord::Base.establish_connection(
   :adapter  => db.scheme,
-  :database => "#{database_name}",
+  :database => "db/#{database_name}",
 )
