@@ -9,4 +9,6 @@ group :development, :test do
   gem 'shotgun'
   gem 'minitest'
   gem 'tux'
+  gem 'capybara'
+  gem 'database_cleaner'
 end
