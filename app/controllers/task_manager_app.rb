@@ -5,8 +5,7 @@ class TaskManager < Sinatra::Base
   end
 
   post '/tasks' do
-    task = Task.new(params[:task])
-    task.save
+    task = Task.create(params[:task])
     status_code, message = StatusGenerator.evaluate(task)
     status status_code
     body message
