@@ -1,6 +1,1 @@
-* rake commands
-* dev vs. test db creation
-* migrations
-* relationships
-* schema
-* database cleaner
+This is a toy repo we played with in class during our week learning about databases
